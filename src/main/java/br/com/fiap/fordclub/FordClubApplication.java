@@ -1,13 +1,13 @@
-package br.com.fiap.club;
+package br.com.fiap.fordclub;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ClubeFordApplication {
+public class FordClubApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ClubeFordApplication.class, args);
+		SpringApplication.run(FordClubApplication.class, args);
 	}
 
 }

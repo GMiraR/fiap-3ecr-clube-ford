@@ -1,10 +1,10 @@
-package br.com.fiap.club;
+package br.com.fiap.fordclub;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ClubeFordApplicationTests {
+class FordClubApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,0 +1,18 @@
+version: '3'
+
+networks:
+  default:
+    external:
+      name: db-net
+
+services:
+  postgres:
+    container_name: fiap_ford_club_postgresql
+    image: postgres:12-alpine
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: fiap_ford_club
+      POSTGRES_USER: fiap_ford_club
+      POSTGRES_PASSWORD: fiap_ford_club
+      MAX_CONNECTIONS: 300
